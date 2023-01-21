@@ -11,6 +11,9 @@ env:
 
 jobs:
   build:
+    permissions:
+      packages: write
+      id-token: write
     runs-on: ubuntu-latest
 
     steps:
